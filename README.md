@@ -16,14 +16,39 @@
   - 
  
  ### Instaled Software:
-  - PostgreSQL sudo apt-get install postgessql
-  - UFW sudo apt-get install ufw
-  - Apache2 sudo apt-get install libapache2-mod-wsgi-py3 sudo apt-get install libapache2-mod-wsgi
-  - python sudo apt-get install python
-    - flask sudo apt-get install python-flask
-    - oauth2client sudo apt-get install python-oauth2client
-    - sqlalchemy sudo apt-get install python-sqlalchemy
-  - git sudo apt-get install git
+  - PostgreSQL 
+  ```bash
+  sudo apt-get install postgessql
+  ```
+  - UFW 
+  ```bash
+  sudo apt-get install ufw
+  ```
+  - Apache2 
+  ```bash
+  sudo apt-get install libapache2-mod-wsgi-py3 
+  sudo apt-get install libapache2-mod-wsgi
+  ```
+  - python 
+  ```bash
+  sudo apt-get install python
+  ```
+  - python-flask 
+    ```bash
+    sudo apt-get install python-flask
+    ```
+  - python-oauth2client 
+   ```bash
+   sudo apt-get install python-oauth2client
+   ```
+  - python-sqlalchemy 
+   ```bash
+   sudo apt-get install python-sqlalchemy
+   ```
+  - git  
+  ```bash
+  sudo apt-get install git
+  ```
   
  ### Cloned project 
   [Catalog Project](https://github.com/caranuial/catalog_project)
