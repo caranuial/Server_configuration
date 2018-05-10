@@ -6,16 +6,19 @@
 ### Ports for connecting using SSH: 
 2200
 
-### List of Changes = todo 
+### List of Changes 
   - instaled postgresql - build custom database, changed password for superuser.
   - updated ssh config file to accept connections from port 2200 
-  - cofigured ufw to allow only ports 22, 80, 123, 2200, 2222 
-  - updated lightsale console to allow ports 80, 123, 2200, 2222
+  - cofigured ufw to allow only ports 80, 123, 2200
+  - updated lightsale console to allow ports 80, 123, 2200
   - instaled apache2 with wsgi extension - changed primary folder and enabled wsgi to handle tasks. 
   - added grader user + implemented rsa key
-  - 
+  - alter sshd_config file to accept only port 2200
+  - clone project to apache www folder
+  - update connections in application to use postgresql.
+  - install all pyton dependencies
  
- ### Instaled Software:
+### Instaled Software:
   - PostgreSQL 
   ```bash
   sudo apt-get install postgessql
@@ -50,10 +53,10 @@
   sudo apt-get install git
   ```
   
- ### Cloned project 
+### Cloned project 
   [Catalog Project](https://github.com/caranuial/catalog_project)
  
- ### Honorable mentions
+### Honorable mentions
   [Postgresql docs](https://www.postgresql.org/docs)
   
   [MR. Jakowicz](https://www.jakowicz.com/flask-apache-wsgi/) for his great step by step setup of Flask applicaitno using WSGI
