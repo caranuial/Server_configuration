@@ -4,7 +4,7 @@
 [18.184.83.60.xip.io](18.184.83.60.xip.io)
 
 ### Ports for connecting using SSH: 
-22, 2200
+2200
 
 ### List of Changes = todo 
   - instaled postgresql - build custom database, changed password for superuser.
