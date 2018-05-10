@@ -60,4 +60,6 @@
   
   [StackOverflow](https://stackoverflow.com/)
   
+  Setting up [SSH](https://askubuntu.com/questions/673597/ssh-connect-to-host-127-0-0-1-port-2222-connection-refused?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa)
+  
   and of course comunity around [UDACITY](https://udacity.com/)
